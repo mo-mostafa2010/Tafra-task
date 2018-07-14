@@ -1,0 +1,7 @@
+<div *ngFor = 'let item of data'>
+	<div *ngIf='"/" + item.embed == href' class="cntr">
+		<img src="{{item.image}}" class="img cntr">
+		<p>{{item.text}}</p>
+	</div>
+</div>
+

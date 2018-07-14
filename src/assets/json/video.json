@@ -1,0 +1,23 @@
+[
+    {
+        "name": "item 1",
+        "slug": "item-1",
+        "embed" : "gskjgbsg",
+        "image" : "assets/images/nature/1.jpg",
+        "text" : "gakjg gkjfsg nmg dgk dg gsg sklg gsklng  gsklng "
+    },
+    {
+        "name": "item 2",
+        "slug": "item-2",
+        "embed" : "6wD4V0rvlDI",
+        "image" : "assets/images/nature/2.jpg",
+        "text" : "gakjg gkjfsg nmg dgk dg gsg sklg gsklng  gsklng "
+    },
+    {
+        "name": "item 3",
+        "slug": "item-3",
+        "embed" : "fndfkjsf",
+        "image" : "assets/images/nature/3.jpg",
+        "text" : "gakjg gkjfsg nmg dgk dg gsg sklg gsklng  gsklng "
+    }  
+]

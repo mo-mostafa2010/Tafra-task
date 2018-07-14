@@ -1,0 +1,6 @@
+<div *ngFor='let item of videolist'>
+	{{today | date:"short"}}
+  <a routerLink="{{item.embed}}">{{item.name}}</a> <br>
+  <iframe *ngIf='item.embed' width="560" height="315" [src]="getEmbedURL(item)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>	
+</div>
+

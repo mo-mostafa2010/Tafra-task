@@ -1,0 +1,21 @@
+
+<!--
+<div class="text-center">
+<carousel class="container">
+  <slide *ngFor='let image of imagelist'>
+  	<a href='{{image.link}}'>
+    <img class="img-size" src='{{image.src}}' alt="first slide" style="display: block; width: 100%;">
+    </a>
+    <div class="carousel-caption">
+    	{{image.title}}
+    	<p><a href="videos/videos-1" class="btn btn-default"> {{image.video}}</a></p> 
+	</div>
+  </slide>
+</carousel>
+</div> -->
+<ul class="container">
+  <li *ngFor= 'let item of images'>
+    <a routerLink="{{item.embed}}">{{item.name}}</a>
+      <router-outlet></router-outlet>
+  </li>
+</ul>
