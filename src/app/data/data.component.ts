@@ -18,7 +18,8 @@ export class DataComponent implements OnInit {
     this.req = this.http.get('assets/json/video.json').subscribe(data => {
       this.data = data.json();
        this.href = this.router.url;
-        console.log(this.router.url); 
+        console.log(this.router.url);
+        console.log(data); 
     })
   }
   ngOnDestroy(){

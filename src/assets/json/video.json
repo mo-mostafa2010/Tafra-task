@@ -19,5 +19,12 @@
         "embed" : "fndfkjsf",
         "image" : "assets/images/nature/3.jpg",
         "text" : "gakjg gkjfsg nmg dgk dg gsg sklg gsklng  gsklng "
-    }  
+    },
+    {
+        "name": "item 4",
+        "slug": "item-4",
+        "embed" : "fndffakjsf",
+        "image" : "assets/images/nature/3.jpg",
+        "text" : "gakjg gkjfsg nmg dgk dg gsg sklg gsklng  gsklng "
+    }
 ]
